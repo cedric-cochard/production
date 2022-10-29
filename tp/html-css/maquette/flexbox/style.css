@@ -19,7 +19,36 @@ body {
   min-height: 100vh;
   background: #1E1D1E;
   color: white;
+  cursor: none;
 }
+
+.mouse {
+  position: absolute;
+  border-radius: 1500px;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+
+#cursor {
+  background: #2128bd;
+  width: 14px;
+  height: 14px;
+}
+
+#mouse1 {
+  height: 100px;
+  width: 100px;
+  background: white;
+  transition: 0.15s ease-out;
+}
+
+#mouse2 {
+  height: 200px;
+  width: 200px;
+  background: rgb(41, 41, 41);
+  transition: 0.25s ease-out;
+}
+
 nav {
   display: flex;
   justify-content:space-between;
