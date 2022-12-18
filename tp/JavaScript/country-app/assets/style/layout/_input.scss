@@ -1,0 +1,16 @@
+input {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: 0.2s;
+}
+input:focus {
+  border-radius: 30px;
+  background: rgb(238, 238, 238);
+}
+
+input[type="range"] {
+  width: 250px;
+  margin: 0 10px 10px 0;
+}

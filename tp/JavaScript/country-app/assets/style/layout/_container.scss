@@ -1,0 +1,21 @@
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.range-container span {
+  font-size: 1.2rem;
+  transform: translateY(-3px);
+}
+
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
